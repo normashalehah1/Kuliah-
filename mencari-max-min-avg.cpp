@@ -1,18 +1,20 @@
 #include <iostream>
 
+using namespace std; 
+
 int main() {
     // Deklarasi variabel
     float a, b, c, max, min, avg;
 
     // Input nilai a, b, dan c
-    std::cout << "Masukkan nilai a: ";
-    std::cin >> a;
+    cout << "Masukkan nilai a: ";
+    cin >> a;
 
-    std::cout << "Masukkan nilai b: ";
-    std::cin >> b;
+    cout << "Masukkan nilai b: ";
+    cin >> b;
 
-    std::cout << "Masukkan nilai c: ";
-    std::cin >> c;
+    cout << "Masukkan nilai c: ";
+    cin >> c;
 
     // Menentukan nilai maksimum
     if (a > b && a > c)
@@ -34,9 +36,9 @@ int main() {
     avg = (a + b + c) / 3.0;
 
     // Menampilkan hasil
-    std::cout << "Nilai maksimum: " << max << "\n";
-    std::cout << "Nilai minimum: " << min << "\n";
-    std::cout << "Rata-rata: " << avg << "\n";
+    cout << "Nilai maksimum: " << max << "\n";
+    cout << "Nilai minimum: " << min << "\n";
+    cout << "Rata-rata: " << avg << "\n";
 
-    return 0;
+    
 }
