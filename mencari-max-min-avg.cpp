@@ -1,3 +1,10 @@
+/*
+Nama : Norma Shalehah
+NIM  : 230111091
+Mata Kuliah : Algoritma dan Pemrograman Dasar
+Kode Kelas : R3
+*/
+
 #include <iostream>
 
 using namespace std; 
