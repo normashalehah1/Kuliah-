@@ -2,10 +2,8 @@
 using namespace std;
 
 int main() {
-    int bil, deret;
-    cout << "Masukkan jumlah deret angka: ";
-    cin >> deret;
-    for(bil=1; bil<=deret; bil++) {
+    int bil;
+    for (bil=2; bil<=100; bil += 2) {
         cout << bil << " ";
     }
     return 0;
